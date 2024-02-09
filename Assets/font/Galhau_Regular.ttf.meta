@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 74f005efacbe09d4ba5bb4a75648bac1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Galhau Display
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5189d9330c52a1b43b69c75e07f225b4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

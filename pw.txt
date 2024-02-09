@@ -1,0 +1,5 @@
+alias = bingo
+pw : plus2023
+
+bingo-lucky-party.apk
+bingo-lucky-party.aab

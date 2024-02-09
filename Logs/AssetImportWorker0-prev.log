@@ -1,0 +1,510 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.12f1 (022dac4955a3) revision 142764'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 65410 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Phoenix/Desktop/Unity Upload/Bingo-Lucky-Pary
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52930
+Successfully changed project path to: C:/Users/Phoenix/Desktop/Unity Upload/Bingo-Lucky-Pary
+C:/Users/Phoenix/Desktop/Unity Upload/Bingo-Lucky-Pary
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41960] Host "[IP] 10.20.0.211 [Port] 0 [Flags] 2 [Guid] 1710139650 [EditorId] 1710139650 [Version] 1048832 [Id] WindowsEditor(7,Phoenix-175) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [41960] Host "[IP] 10.20.0.211 [Port] 0 [Flags] 2 [Guid] 1710139650 [EditorId] 1710139650 [Version] 1048832 [Id] WindowsEditor(7,Phoenix-175) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 36.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.12f1 (022dac4955a3)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Phoenix/Desktop/Unity Upload/Bingo-Lucky-Pary/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0x1287)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009310 seconds.
+- Loaded All Assemblies, in  0.494 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 475 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.910 seconds
+Domain Reload Profiling:
+	ReloadAssembly (277ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+				TypeCache.Initialize (210ms)
+					TypeCache.ScanAssembly (208ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (823ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (603ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Phoenix\Desktop\Unity Upload\Bingo-Lucky-Pary\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Phoenix\Desktop\Unity Upload\Bingo-Lucky-Pary\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.194 seconds
+Refreshing native plugins compatible for Editor in 12.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (343ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		LoadAllAssembliesAndSetupDomain (847ms)
+			LoadAssemblies (480ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+				TypeCache.Initialize (430ms)
+					TypeCache.ScanAssembly (420ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 12.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (82.3 KB). Loaded Objects now: 4548.
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 10.924000 ms (FindLiveObjects: 0.653300 ms CreateObjectMapping: 0.499300 ms MarkObjects: 9.423200 ms  DeleteObjects: 0.346300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15071.921707 seconds.
+  path: Assets/Circle.png
+  artifactKey: Guid(0636ed477fe421749aa787c2c3e22ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Circle.png using Guid(0636ed477fe421749aa787c2c3e22ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c54dfd4f8e86c64bdf8c3b4cad1d71c') in 0.171883 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.859055 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99c5e1824b8c2005b15e18b2aeeaaf6') in 0.000945 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.858121 seconds.
+  path: Assets/Scenes/Bingo-Menu.unity
+  artifactKey: Guid(6837439806b004a4982d66a14e5f841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bingo-Menu.unity using Guid(6837439806b004a4982d66a14e5f841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79c5bd6edfa9ee84d5d320f03d208a8') in 0.001590 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.627472 seconds.
+  path: Assets/Scenes/Bingo Home.unity
+  artifactKey: Guid(51d5ef74ab732f944b556ca22b6192ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bingo Home.unity using Guid(51d5ef74ab732f944b556ca22b6192ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84002d3e7a72921d84b22050c8f5d8a') in 0.000861 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 186.539383 seconds.
+  path: Assets/Scenes/Bingo.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bingo.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34bddac8479257f52b73e8c742a036d') in 0.001237 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Phoenix\Desktop\Unity Upload\Bingo-Lucky-Pary\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Phoenix\Desktop\Unity Upload\Bingo-Lucky-Pary\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.182 seconds
+Refreshing native plugins compatible for Editor in 11.93 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (393ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		LoadAllAssembliesAndSetupDomain (785ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+				TypeCache.Initialize (404ms)
+					TypeCache.ScanAssembly (394ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 14.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (46.6 KB). Loaded Objects now: 4557.
+Memory consumption went from 135.9 MB to 135.8 MB.
+Total: 9.050100 ms (FindLiveObjects: 0.463200 ms CreateObjectMapping: 0.285100 ms MarkObjects: 8.132200 ms  DeleteObjects: 0.168700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Phoenix\Desktop\Unity Upload\Bingo-Lucky-Pary\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Phoenix\Desktop\Unity Upload\Bingo-Lucky-Pary\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.168 seconds
+Refreshing native plugins compatible for Editor in 16.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (339ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		LoadAllAssembliesAndSetupDomain (825ms)
+			LoadAssemblies (472ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+				TypeCache.Initialize (431ms)
+					TypeCache.ScanAssembly (421ms)
+				ResolveRequiredComponents (12ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 15.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (53.9 KB). Loaded Objects now: 4560.
+Memory consumption went from 136.1 MB to 136.1 MB.
+Total: 6.610100 ms (FindLiveObjects: 0.581700 ms CreateObjectMapping: 0.252700 ms MarkObjects: 5.660600 ms  DeleteObjects: 0.114000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 661.389228 seconds.
+  path: Assets/bingo_field/iCON bINGO 1.2 (2).png
+  artifactKey: Guid(7c4751b95b7336d478cb2616c4dce6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/iCON bINGO 1.2 (2).png using Guid(7c4751b95b7336d478cb2616c4dce6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b71ef29356e27672f8c1f081158f7a') in 0.135645 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.365611 seconds.
+  path: Assets/bingo_field/bingo interface
+  artifactKey: Guid(e6dff783e4d312b43947fbf2af59396c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface using Guid(e6dff783e4d312b43947fbf2af59396c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8644213f4fe0f46a120929cb91843839') in 0.000812 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084719 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 1.png
+  artifactKey: Guid(f586178ce5eb93f4aa1c168b303cb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 1.png using Guid(f586178ce5eb93f4aa1c168b303cb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84dc2ae28378abef449a351e28c7d29') in 0.032584 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013050 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 15.png
+  artifactKey: Guid(b57ac504d764192448b237ef0ffe4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 15.png using Guid(b57ac504d764192448b237ef0ffe4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d68283380059410c4a0603a006b2a2') in 0.021436 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006438 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 17.png
+  artifactKey: Guid(99d15c2bac11e8d42948dd81d98537a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 17.png using Guid(99d15c2bac11e8d42948dd81d98537a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15de2ac8693c93146867a17c55ee6d7') in 0.022934 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003220 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 32.png
+  artifactKey: Guid(00a68bc9e76c06b44a782bffe7a6bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 32.png using Guid(00a68bc9e76c06b44a782bffe7a6bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6f887e53c35d469ae032e70d1862fb') in 0.024927 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001594 seconds.
+  path: Assets/bingo_field/bingo interface/box2.png
+  artifactKey: Guid(9af3fc6774691ba488a842836eaa5b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/box2.png using Guid(9af3fc6774691ba488a842836eaa5b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a6db39aa9915e11f079dd461ebfdeb') in 0.022634 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/bingo_field/bingo interface/n.png
+  artifactKey: Guid(3a6cecf236aacc74291bebf5b2a449bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/n.png using Guid(3a6cecf236aacc74291bebf5b2a449bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a010611193c40b4d3cc1c0d7d57d9e9') in 0.024529 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/bingo_field/bingo interface/play.png
+  artifactKey: Guid(b6263e3d82da28547a496d8996fb4d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/play.png using Guid(b6263e3d82da28547a496d8996fb4d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4a25dd318765c3be32299bf88d4e50') in 0.037200 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 21.png
+  artifactKey: Guid(df82f26a293d13949945cd7d72f20c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 21.png using Guid(df82f26a293d13949945cd7d72f20c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9752095011b22ffb66e27c8669a45a1d') in 0.040053 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/bingo_field/bingo interface/boc1.png
+  artifactKey: Guid(cd28f6e989cea6a428cf7fc45cc28f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/boc1.png using Guid(cd28f6e989cea6a428cf7fc45cc28f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb99a4949af72f9525cc82138c1ec1e') in 0.038812 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 18.png
+  artifactKey: Guid(2a6f1573daf7142428cb47d5dbfe2419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 18.png using Guid(2a6f1573daf7142428cb47d5dbfe2419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5603fa74b35cb5961f4169da5e71cc') in 0.036585 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/bingo_field/bingo interface/logo.png
+  artifactKey: Guid(92daaacb7a1fe8242918939fbec88a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/logo.png using Guid(92daaacb7a1fe8242918939fbec88a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77c20acfdadfde1552e0aadea58ac01') in 0.037331 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/bingo_field/bingo interface/papper.png
+  artifactKey: Guid(88c8f46cdd3627a49ac087ebf2b76b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/papper.png using Guid(88c8f46cdd3627a49ac087ebf2b76b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb061dd0d5b8540c3e910db015664437') in 0.040338 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/bingo_field/bingo interface/frame ball.png
+  artifactKey: Guid(a04780f4fff873a4ea15e7dace8dfe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/frame ball.png using Guid(a04780f4fff873a4ea15e7dace8dfe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a50c1c78e653b561dff1884b60a178') in 0.036926 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 19.png
+  artifactKey: Guid(6260d7ad374d48144b0284943dde31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 19.png using Guid(6260d7ad374d48144b0284943dde31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73d10742f4f2379044ccfcf15cb8a8d') in 0.040828 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/bingo_field/bingo interface/star.png
+  artifactKey: Guid(6e4b21bf9bcfd094a89fdde9d4786a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/star.png using Guid(6e4b21bf9bcfd094a89fdde9d4786a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3e47ee05b782cced8aa80df119952c') in 0.042000 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/bingo_field/bingo interface/Artboard 12.png
+  artifactKey: Guid(b571e7cc99aacfa4c9fe505b5b5f962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/bingo interface/Artboard 12.png using Guid(b571e7cc99aacfa4c9fe505b5b5f962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20577deb5f217ada93d174b0cbf4c9e') in 0.041107 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.089583 seconds.
+  path: Assets/bingo_field/ui
+  artifactKey: Guid(fa5a63c172b17a94cb56cd8d23b5338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/ui using Guid(fa5a63c172b17a94cb56cd8d23b5338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1709c1514519cf837dce7ca7230be05') in 0.000868 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072517 seconds.
+  path: Assets/bingo_field/ui/boom 1.png
+  artifactKey: Guid(080338fab92a2dc478959618e71215bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bingo_field/ui/boom 1.png using Guid(080338fab92a2dc478959618e71215bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12963c4b4cb7588f6564321dd13bfe6d') in 0.288028 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
